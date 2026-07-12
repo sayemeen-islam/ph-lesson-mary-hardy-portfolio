@@ -1,11 +1,12 @@
+/* #region common styles  */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
-/* common style */
-.common-btn{
+
+.common-btn {
   background-color: #FD6E0A;
   color: white;
   padding: 8px 20px;
@@ -15,113 +16,191 @@
   font-weight: 500;
   cursor: pointer;
 }
-.container{
+
+.container {
   max-width: 1200px;
   width: 74%;
-  margin:  auto;
+  margin: auto;
 }
-/* common style end */
 
-/* header design */
+.text-color {
+  color: #757575;
+}
+
+.bg-color {
+  background-color: #FFF8F3;
+}
+
+.ts-sm {
+  font-size: 0.8rem;
+}
+
+.ts-md {
+  font-size: 1rem;
+}
+
+.ts-lg {
+  font-size: 1.15rem;
+}
+
+/* #endregion  */
+
+
+/* #region header section */
 header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #FFF8F3;
-  /* border: 1px solid red; */
   background-image: url(./images/header_bg.png);
   background-repeat: no-repeat;
-  background-position: right -5px bottom -30px;
+  background-position: right bottom;
   background-size: 650px;
   position: relative;
-  
+
 }
 
 .text-img {
-  width: 66px;
+  max-width: 66px;
+  width: 100%;
   position: absolute;
   left: 3%;
-  top: 7%;
+  top: 50%;
+  transform: translateY(-50%);
 
 }
 
-/* nav  */
-nav{
- 
-  padding-top: 10px ;
+/* #region navbar */
+nav {
+
+  padding-top: 2.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: black;
 }
-nav ul{
-  /* color: black; */
+
+nav ul {
   display: flex;
   align-items: center;
   gap: 30px;
   list-style: none;
 }
-nav a{
+
+nav a {
   text-decoration: none;
-  /* color: black; */
   color: #474747;
 
 }
-nav h2{
+
+nav h2 {
   font-weight: 900;
   font-size: 2rem;
 }
-nav h2 span{
+
+nav h2 span {
   color: #FD6E0A;
 }
 
-/* hero-section design  */
+/* #endregion  */
 
-.hero-container{
+/* #region hero section */
+.hero-container {
 
   display: flex;
   flex: 1;
 
 }
 
- .hero-left,.hero-right{
+.hero-left,
+.hero-right {
   flex: 1;
 }
-.hero-left{
+
+.hero-left {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
-.hero-subtitle{
+
+
+.hero-subtitle {
   font-size: 2rem;
   color: #474747;
   font-weight: 500;
 }
-.hero-title{
+
+.hero-title {
   font-size: 4rem;
 }
-.hero-description{
-  font-size: 14px;
+
+.hero-description {
   color: #757575;
   padding: 20px 0;
 }
-.outline-btn{
-   background-color: white;
+
+.outline-btn {
+  background-color: white;
   color: #FD6E0A;
   border: 1px solid #FD6E0A;
- 
+
 }
-.button-group{
+
+.button-group {
   display: flex;
-  gap: 15px;
+  gap: 1rem;
 }
-.hero-right{
-    display: flex;
+
+.hero-right {
+  display: flex;
+  justify-content: flex-end;
   align-items: flex-end;
-  transform: translateX(160px);
+
+
 }
-.hero-right-img{
-  width: 90%;
+
+.hero-right-img {
+  width: 85%;
   display: block;
+  transform: translateX(140px);
 }
+
+/* #endregion  */
+
+/* #endregion  */
+
+
+/* #region main section */
+
+/* #region about me section */
+.about-section {
+  margin: 6rem auto;
+  padding: 6rem 8.5rem;
+  border-radius: 0.5em;
+}
+
+.about-me-container {
+  text-align: center;
+  max-width: 57rem;
+  margin: 0 auto;
+}
+
+.about-me-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+
+}
+
+.about-content strong {
+  color: #474747;
+}
+
+/* #endregion */
+
+/* #endregion */
