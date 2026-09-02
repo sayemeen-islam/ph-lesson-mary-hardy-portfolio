@@ -1,212 +1,298 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-    rel="stylesheet" />
-</head>
+  <body>
+    <!-- #region header section -->
+    <header class="bg-color">
+      <img class="text-img" src="./images/developer.png" alt="developer" />
 
-<body>
-  <!-- #region header section -->
-  <header class="bg-color">
-    <img class="text-img" src="./images/developer.png" alt="developer" />
+      <!-- #region navbar -->
+      <nav class="container">
+        <h2>Ma<span>r</span>y</h2>
+        <ul>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><button class="common-btn">Hire Me</button></li>
+        </ul>
+      </nav>
+      <!-- #endregion -->
 
-    <!-- #region navbar -->
-    <nav class="container">
-      <h2>Ma<span>r</span>y</h2>
-      <ul>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><button class="common-btn">Hire Me</button></li>
-      </ul>
-    </nav>
+      <!--#region hero section -->
+      <section class="hero-container">
+        <div class="hero-left">
+          <p class="hero-subtitle">Hi, I am</p>
+          <h2 class="hero-title">Mary Hardy</h2>
+          <p class="hero-description ts-md">
+            Shot what able cold new see hold.Friendly as an betrayed formerly
+            he. Morning because as to society behaved moments.
+          </p>
+          <div class="button-group">
+            <button class="common-btn">
+              <img src="./images/icons/Frame.png" alt="download-icon" />Download
+              CV
+            </button>
+            <button class="common-btn outline-btn">Contact</button>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <img
+            src="./images/hardy.png"
+            alt="Portrait of Mary Hardy"
+            class="hero-right-img"
+          />
+        </div>
+      </section>
+      <!-- #endregion -->
+    </header>
     <!-- #endregion -->
 
-    <!--#region hero section -->
-    <section class="hero-container ">
-      <div class="hero-left">
-        <p class="hero-subtitle">Hi, I am</p>
-        <h2 class="hero-title">Mary Hardy</h2>
-        <p class="hero-description ts-md">
-          Shot what able cold new see hold.Friendly as an betrayed formerly
-          he. Morning because as to society behaved moments.
+    <!-- #region main section -->
+    <main>
+      <!-- #region about me section -->
+      <section class="container bg-color about-section section-margin">
+        <div class="about-me-container text-center">
+          <h2 class="section-heading">About Me</h2>
+          <p class="light-gray ts-md">
+            I'm a designer & developer with a passion for web design. I enjoy
+            developing simple, clean and slick websites that provide real value
+            to the end user. Thousands of clients have procured exceptional
+            results while working with me. Delivering work within time and
+            budget which meets clients requirements in our mata.
+          </p>
+          <div class="about-content">
+            <div>
+              <p class="light-gray ts-lg">Name:</p>
+              <strong class="ts-lg">Mary Hardy</strong>
+            </div>
+            <div>
+              <p class="light-gray ts-lg">Email:</p>
+              <strong class="ts-lg">info@gmail.com</strong>
+            </div>
+            <div>
+              <p class="light-gray ts-lg">Date of birth:</p>
+              <strong class="ts-lg">11 November 1987</strong>
+            </div>
+            <div>
+              <p class="light-gray ts-lg">From:</p>
+              <strong class="ts-lg">Los Angeles, USA</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- #endregion -->
+
+      <!-- #region what i do section -->
+
+      <section class="what-i-do-section text-center container section-margin">
+        <h2 class="section-heading">What I do</h2>
+        <p class="ts-md light-gray what-description">
+          I have more than 10 years experience building software for clients all
+          over the world. Below is a quick overview of my main technical skill
+          sets and technologies i use. Want to find out more about my
+          experience? Check out my online resume and project portfolio.
         </p>
-        <div class="button-group">
-          <button class="common-btn"><img src="./images/icons/Frame.png" alt="download-icon">Download CV</button>
-          <button class="common-btn outline-btn">Contact</button>
+        <div class="card-container">
+          <div class="card">
+            <img src="./images/icons/js.png" alt="js-icon" />
+            <h4>Vanilla JavaScript</h4>
+            <p class="ts-sm light-gray">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./images/icons/angular-icon-1 1.png" alt="angular-icon" />
+            <img src="./images/icons/react.png" alt="react-icon" />
+            <img src="./images/icons/vue-9 1.png" alt="vue-icon" />
+            <h4>Angular, React & Vue</h4>
+            <p class="ts-sm light-gray">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./images/icons/nodejs.png" alt="node.js-icon" />
+            <h4>Node.js</h4>
+            <p class="ts-sm light-gray">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./images/icons/python-5 1.png" alt="python-icon" />
+            <h4>Python & Django</h4>
+            <p class="ts-sm light-gray">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <div class="hero-right">
-        <img src="./images/hardy.png" alt="Portrait of Mary Hardy" class="hero-right-img" />
-      </div>
-    </section>
+      <!-- #endregion -->
+
+      <!-- #region summary of resume section -->
+      <section class="section-margin container text-center">
+        <h2 class="section-heading">A summary of My Resume</h2>
+        <div class="summary-container">
+          <div class="education">
+            <h3 class="dark-gray">My Education</h3>
+            <div class="summary-content">
+              <h4 class="ts-lg dark-gray">Master in Computer Engineering</h4>
+              <p class="light-gray uni-or-org">
+                Harvard University / 2015 - 2017
+              </p>
+              <p class="light-gray ts-sm">
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
+              <div class="line"></div>
+            </div>
+            <div class="summary-content">
+              <h4 class="ts-lg dark-gray">Master in Computer Engineering</h4>
+              <p class="light-gray uni-or-org">
+                Harvard University / 2015 - 2017
+              </p>
+              <p class="light-gray ts-sm">
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
+              <div class="line"></div>
+            </div>
+            <div class="summary-content">
+              <h4 class="ts-lg dark-gray">Master in Computer Engineering</h4>
+              <p class="light-gray uni-or-org">
+                Harvard University / 2015 - 2017
+              </p>
+              <p class="light-gray ts-sm">
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
+            </div>
+          </div>
+
+          <div class="experience">
+            <h3 class="dark-gray">My Experience</h3>
+            <div class="summary-content">
+              <h4 class="ts-lg dark-gray">Sr. Font End Developer</h4>
+              <p class="light-gray uni-or-org">Apple Inc / 2020 - Current</p>
+              <p class="light-gray ts-sm">
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
+              <div class="line"></div>
+            </div>
+            <div class="summary-content">
+              <h4 class="ts-lg dark-gray">Jr. Font End Developer</h4>
+              <p class="light-gray uni-or-org">Dribbble Inc / 2018 - 2022</p>
+              <p class="light-gray ts-sm">
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
+              <div class="line"></div>
+            </div>
+            <div class="summary-content">
+              <h4 class="ts-lg dark-gray">HTML Developer</h4>
+              <p class="light-gray uni-or-org">Adobe Inc / 2017 - 2018</p>
+              <p class="light-gray ts-sm">
+                List skill/technologies here. You can change the icon above to
+                any of the 1500+ FontAwesome 5 free icons available. Aenean
+                commodo ligula eget dolor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="summary-btn">
+          <button class="common-btn">
+            <img src="./images/icons/Frame.png" alt="download-icon" />Download
+            CV
+          </button>
+        </div>
+      </section>
+      <!-- #endregion -->
+
+      <!-- #region My Amazing Works -->
+      <section class="work-section container section-margin text-center">
+        <h2 class="section-heading">My Amazing Works</h2>
+        <div class="work-container">
+          <img class="img-1" src="./images/Rectangle 9.png" alt="" />
+          <img class="img-2" src="./images/Rectangle 8.png" alt="" />
+          <img class="img-3" src="./images/Rectangle 11.png" alt="" />
+          <img class="img-4" src="./images/Rectangle 10.png" alt="" />
+          <img class="img-5" src="./images/Rectangle 13.png" alt="" />
+          <img class="img-6" src="./images/Rectangle 12.png " alt="" />
+        </div>
+      </section>
+      <!-- #endregion -->
+
+      <!-- #region Footer -->
+      <footer class="bg-color">
+        <div class="container footer-container">
+          <div class="footer-connect">
+            <h2 class="section-heading">Let's Connect</h2>
+            <p class="dark-gray ts-sm">
+              Please fill out the form on this section to contact with me or
+              call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.
+            </p>
+            <img src="./images/icons/facebook.png" alt="" />
+            <img src="./images/icons/twitter.png" alt="" />
+            <img src="./images/icons/insta.png" alt="" />
+          </div>
+          <div class="footer-message">
+            <h2 class="section-heading">Let's Message me</h2>
+            <form action="" class="footer-form">
+              <label for="name"></label>
+              <input
+                class="light-gray"
+                id="name"
+                type="text"
+                placeholder="Your name"
+              /><br /><br />
+              <label for="email"></label>
+              <input
+                class="light-gray"
+                id="email"
+                type="email"
+                placeholder="Your email"
+              /><br /><br />
+              <label for="message"></label>
+              <textarea
+                class="light-gray"
+                id="message"
+                name="message"
+                rows="10"
+                placeholder="Message"
+                required
+              ></textarea>
+              <button type="submit" class="common-btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </footer>
+      <!-- #endregion -->
+    </main>
     <!-- #endregion -->
-
-
-  </header>
-  <!-- #endregion -->
-
-
-  <!-- #region main section -->
-  <main>
-
-
-    <!-- #region about me section -->
-    <section class="container bg-color about-section section-margin">
-      <div class="about-me-container text-center">
-        <h2 class="section-heading">About Me</h2>
-        <p class="light-gray ts-md">I'm a designer & developer with a passion for web design. I enjoy developing simple,
-          clean and slick websites that provide real value to the end user. Thousands of clients have procured
-          exceptional results while working with me. Delivering work within time and budget which meets clients
-          requirements in our mata.</p>
-        <div class="about-content">
-          <div>
-            <p class="light-gray ts-lg">Name:</p>
-            <strong class="ts-lg">Mary Hardy</strong>
-          </div>
-          <div>
-            <p class="light-gray ts-lg">Email:</p>
-            <strong class="ts-lg">info@gmail.com</strong>
-          </div>
-          <div>
-            <p class="light-gray ts-lg">Date of birth:</p>
-            <strong class="ts-lg">11 November 1987</strong>
-          </div>
-          <div>
-            <p class="light-gray ts-lg">From:</p>
-            <strong class="ts-lg">Los Angeles, USA</strong>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- #endregion -->
-
-
-    <!-- #region what i do section -->
-
-    <section class="what-i-do-section text-center container section-margin">
-      <h2 class="section-heading">What I do</h2>
-      <p class="ts-md light-gray what-description">I have more than 10 years experience building software for clients
-        all over the world.
-        Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my
-        experience? Check out my online resume and project portfolio.</p>
-      <div class="card-container">
-        <div class="card">
-          <img src="./images/icons/js.png" alt="js-icon">
-          <h4>Vanilla JavaScript</h4>
-          <p class="ts-sm light-gray">List skill/technologies here. You can change the icon above to any of the 1500+
-            FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-        </div>
-        <div class="card">
-          <img src="./images/icons/angular-icon-1 1.png" alt="angular-icon">
-          <img src="./images/icons/react.png" alt="react-icon">
-          <img src="./images/icons/vue-9 1.png" alt="vue-icon">
-          <h4>Angular, React & Vue</h4>
-          <p class="ts-sm light-gray">List skill/technologies here. You can change the icon above to any of the 1500+
-            FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-        </div>
-        <div class="card">
-          <img src="./images/icons/nodejs.png" alt="node.js-icon">
-          <h4>Node.js</h4>
-          <p class="ts-sm light-gray">List skill/technologies here. You can change the icon above to any of the 1500+
-            FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-        </div>
-        <div class="card">
-          <img src="./images/icons/python-5 1.png" alt="python-icon">
-          <h4>Python & Django</h4>
-          <p class="ts-sm light-gray">List skill/technologies here. You can change the icon above to any of the 1500+
-            FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-        </div>
-      </div>
-    </section>
-
-
-
-    <!-- #endregion -->
-
-
-    <!-- #region summary of resume section -->
-    <section class="section-margin container text-center">
-      <h2 class="section-heading">A summary of My Resume</h2>
-      <div class="summary-container">
-        <div class="education">
-          <h3 class="dark-gray">My Education</h3>
-          <div class="summary-content">
-            <h4 class="ts-lg dark-gray">Master in Computer Engineering</h4>
-            <p class="light-gray uni-or-org">Harvard University / 2015 - 2017</p>
-            <p class="light-gray ts-sm">List skill/technologies here. You can change the icon above
-              to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-            <div class="line"></div>
-          </div>
-          <div class="summary-content">
-            <h4 class="ts-lg dark-gray">Master in Computer Engineering</h4>
-            <p class="light-gray uni-or-org">Harvard University / 2015 - 2017</p>
-            <p class="light-gray ts-sm">List skill/technologies here. You can change the icon above
-              to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-            <div class="line"></div>
-          </div>
-          <div class="summary-content">
-            <h4 class="ts-lg dark-gray">Master in Computer Engineering</h4>
-            <p class="light-gray uni-or-org">Harvard University / 2015 - 2017</p>
-            <p class="light-gray ts-sm">List skill/technologies here. You can change the icon above
-              to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-          </div>
-        </div>
-
-        <div class="experience">
-          <h3 class="dark-gray">My Experience</h3>
-          <div class="summary-content">
-            <h4 class="ts-lg dark-gray">Sr. Font End Developer</h4>
-            <p class="light-gray uni-or-org">Apple Inc / 2020 - Current</p>
-            <p class="light-gray ts-sm">List skill/technologies here. You can change the icon above
-              to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-            <div class="line"></div>
-          </div>
-          <div class="summary-content">
-            <h4 class="ts-lg dark-gray">Jr. Font End Developer</h4>
-            <p class="light-gray uni-or-org">Dribbble Inc / 2018 - 2022</p>
-            <p class="light-gray ts-sm">List skill/technologies here. You can change the icon above
-              to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-            <div class="line"></div>
-          </div>
-          <div class="summary-content">
-            <h4 class="ts-lg dark-gray">HTML Developer</h4>
-            <p class="light-gray uni-or-org">Adobe Inc / 2017 - 2018</p>
-            <p class="light-gray ts-sm">List skill/technologies here. You can change the icon above
-              to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-          </div>
-        </div>
-      </div>
-      <div class="summary-btn">
-        <button class="common-btn"><img src="./images/icons/Frame.png" alt="download-icon">Download CV</button>
-
-      </div>
-    </section>
-    <!-- #endregion -->
-
-    <!-- #region My Amazing Works -->
-    <section class="work-section container section-margin text-center">
-      <h2 class="section-heading">My Amazing Works</h2>
-      <div class="work-container">
-        <img class="img-1" src="./images/Rectangle 9.png" alt="">
-        <img class="img-2" src="./images/Rectangle 8.png" alt="">
-        <img class="img-3" src="./images/Rectangle 11.png" alt="">
-        <img class="img-4" src="./images/Rectangle 10.png" alt="">
-        <img class="img-5" src="./images/Rectangle 13.png" alt="">
-        <img class="img-6" src="./images/Rectangle 12.png " alt="">
-      </div>
-    </section>
-    <!-- #endregion -->
-
-  </main>
-  <!-- #endregion -->
-</body>
-
+  </body>
 </html>
